@@ -1,0 +1,21 @@
+:root {
+  --white-clr: hsl(0, 0%, 100%);
+  --light-blue-clr: hsl(212, 45%, 89%);
+  --gray-clr: hsl(216, 15%, 48%);
+  --dark-blue-clr: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*frontend mentor styles*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
