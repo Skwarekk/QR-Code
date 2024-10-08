@@ -11,6 +11,16 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--light-blue-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
 /*frontend mentor styles*/
 .attribution {
   font-size: 11px;
