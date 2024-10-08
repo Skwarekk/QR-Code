@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Outfit";
 }
 
 body {
@@ -26,9 +27,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 120px;
-  padding: 10px;
+  flex-direction: column;
+  max-width: 150px;
+  min-width: 120px;
+  width: 50%;
+  padding: 0.5em;
   border-radius: 0.5rem;
+}
+
+#qr-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#text {
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+h1 {
+  color: var(--dark-blue-clr);
+  margin-bottom: 5%;
+  font-weight: 700;
+}
+
+p {
+  color: var(--gray-clr);
+  font-weight: 400;
 }
 
 /*frontend mentor styles*/
