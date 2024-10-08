@@ -21,6 +21,16 @@ body {
   height: 100vh;
 }
 
+#container {
+  background-color: var(--white-clr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 120px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
 /*frontend mentor styles*/
 .attribution {
   font-size: 11px;
