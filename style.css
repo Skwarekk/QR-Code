@@ -12,6 +12,10 @@
   font-family: "Outfit";
 }
 
+html {
+  font-size: 62, 5%;
+}
+
 body {
   background-color: var(--light-blue-clr);
   display: flex;
@@ -33,6 +37,8 @@ body {
   width: 50%;
   padding: 0.5em;
   border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
 }
 
 #qr-img {
@@ -61,6 +67,7 @@ h1 {
 p {
   color: var(--gray-clr);
   font-weight: 400;
+  font-size: 0.4rems;
 }
 
 /*frontend mentor styles*/
